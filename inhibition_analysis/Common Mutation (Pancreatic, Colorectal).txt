@@ -1,0 +1,40 @@
+
+Pancreatic cancer 
+
+> panc_below_avg
+
+  TP53          KRAS           TTN         EPPK1         LRP1B         BRCA2          CHUK CTD-3193O13.9     DNAH9 LAMA1
+   8             7             6             4             4             3             3             3          3    3
+            
+
+> panc_above_avg
+
+  TP53   KRAS    TTN  MUC16  MUC5B ABCA13 ARID1A FAM47B MT-ND5  NIPBL 
+     6      5      5      4      4      3      3      3      3      3 
+
+
+
+Colorectal cancer 
+
+> colo_below_avg
+
+     TTN      APC      DST     FAT4    OBSCN KIAA1109     LRP1   MYCBP2     PCLO  PKHD1L1 
+      13       10        8        8        8        7        7        7        7        7 
+
+> colo_above_avg
+
+   TTN    APC  LRP1B  MUC16  SYNE1  OBSCN ABCA13  AKAP9    DST  GPR98 
+    22     13     11     11     11      9      8      8      8      8 
+
+
+
+
+Common in both
+KRAS, TTN, MUC16 (MUC5B in panc), LRP1(LRP1B), 
+
+
+
+
+Mucin genes (MUC5B, MUC16)
+
+LRP1 promotes cancer cell invasion and migration 

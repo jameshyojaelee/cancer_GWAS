@@ -1,0 +1,39 @@
+Pancreatic cacncer
+
+Cell lines: 
+PATU8988S PANC1005  T3M4      SU8686    CFPAC1    PANC1     HS766T    ASPC1     PANC0403  SNU213    KP2       PSN1      TCCPAN2  
+PATU8902  SUIT2     JOPACA1   PACADD188
+
+Common mutations: 
+ SCN10A        ATR     CDKN2A      EIF3C      GRID1     MT-CO1     MT-ND1     AKNAD1     CEP290    CNTNAP5      CSMD2      EP300 
+         6          4          4          4          4          4          4          3          3          3          3          3 
+     EP400       GLI3   GLTSCR1L    GPATCH8   HLA-DQB2   KIAA1109      KIF4B      MAPK6    METTL22      MROH1       MYH1      MYH15 
+         3          3          3          3          3          3          3          3          3          3          3          3 
+     NACAD    NCKAP1L      NFXL1     PABPC1       PCNX     PLXNA4     POLR3E      RIMS2     TBC1D3        TPO        TTN      WDFY3 
+         3          3          3          3          3          3          3          3          3          3          3          3 
+     WDFY4     ZNF208     ZNF292 
+         3          3          3
+
+
+
+Cell lines: 
+C2BBE1  COLO201 OUMS23  T84     HCC56   SW1463  NCIH716 HT29    SW948   SW403   HT55    RKO     LS180   SW48    CCK81   GP5D    C99    
+SNU1544
+
+Colorectal cancer
+     HUWE1       NAV1       CASK     PCDH19      ABCA2       CHD8     PLXNB2        TNR      UNC5D       CD93        CEL     DNAH17 
+        10          9          8          8          7          7          7          7          7          6          6          6 
+    FAM47C       FBN3       FLNA       GLI2     MTSS1L        NES       PFKP    PHF20L1       PKN3      RADIL      RBBP6      RBM25 
+         6          6          6          6          6          6          6          6          6          6          6          6 
+     VPS41      ZFHX3     ZNF574 AC007431.1     ACADVL    ADAMTS2   ARHGAP22     ATAD3A      C2CD3     CEP128     CEP290       CHD2 
+         6          6          6          5          5          5          5          5          5          5          5          5 
+    COBLL1     CTNND1     DFNB31      EFNA4    FAM129B      FOXC2      GGPS1     GPR113     GPR124      GRID1       GSE1      HABP2 
+         5          5          5          5          5          5          5          5          5          5          5          5 
+     IGF2R     IKBKAP     JARID2      KCNA4       KRT7      LENG1     MAP3K1      MED12      MED15     MICAL3       MLH1       MTA1 
+         5          5          5          5          5          5          5          5          5          5          5          5 
+     MYO3B     NKX6-1       PCLO       PCNT      PDE8A      PDZD4       PIGQ   PPP1R12C      PROB1     PWWP2B        QKI      RAPH1 
+         5          5          5          5          5          5          5          5          5          5          5          5 
+    RNF219    RPS6KA2      RPTOR     SEL1L2     SETBP1     SETDB1      SGIP1     SLC9A4       TAF1     TCF7L2        TTN      WDR66 
+         5          5          5          5          5          5          5          5          5          5          5          5 
+     WDTC1      WHSC1     ZBTB20      ZFHX2     ZNF317       
+         5          5          5          5          5       
