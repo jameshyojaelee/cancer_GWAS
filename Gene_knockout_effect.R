@@ -20,8 +20,12 @@ Gene <- "UBR1"
 #dataframe with the cancer cell line names
 ccl_df <- data.frame(ID = cclID$DepMap_ID, ccl = cclID$stripped_cell_line_name, lineage = cclID$lineage)
 
+# delete all the suffixes in col names
+names(gene_effect) <- sub("\\..*", "", names(gene_effect))
+
 #dataframe with the gene effect score (example with MSH2 Gene ONLY)
-Gene_df <- data.frame(ID = gene_effect$DepMap_ID, KO_effect = gene_effect$UBR1..197131.)
+Gene_df <- data.frame(ID = gene_effect$DepMap_ID, KO_effect = gene_effect[, c(Gene)])
+
 
 #Merge cell line info and gene effect score
 Gene_merged <- merge(x = ccl_df, 
@@ -94,9 +98,8 @@ enrichment <- function(cell_line){
   #separate df with unique KO effect score for each ccl
   x_average_KO <- x %>%
                     group_by(ccl) %>%
-                    summarize(
-                      KO_effect = mean(KO_effect)
-                    )
+                    summarize(KO_effect = mean(KO_effect))
+  
   average <- mean(x_average_KO$KO_effect)
   #extract the ccl with KO_effect below average and the max value among them (for drawing the threshold line on the graph)
   significant_ccl <- x_average_KO[x_average_KO$KO_effect <= average, ]
@@ -139,14 +142,19 @@ enrichment("colorectal")
 ################################################################################################################
 #(b) Common mutation
 
-#############################example with colorectal cells############################
+
+calculate_mode <- function(x) {
+  uniqx <- unique(na.omit(x))
+  uniqx[which.max(tabulate(match(x, uniqx)))]
+}
+
 
 ### IMPORTANT 
 ### the variable "mutated_gene" can be set to any gene. 
 ### Refer to the list printed by the function and set the gene accordingly
 
 ##create function to repeat the process (b) and (c)  
-mutation_analysis <- function(cell_line){
+mutation_analysis <- function(cell_line, index){
   enrich <- enrichment(cell_line)
   mut <- gene_effect_mutation[which(gene_effect_mutation$lineage == cell_line), ]
   average <- mean(mut$KO_effect)
@@ -167,7 +175,7 @@ mutation_analysis <- function(cell_line){
   print(frequent_mut)
   #calculate the mode (most frequent mutation)
   #mutated_gene <- calculate_mode(mut_final$Hugo_Symbol)
-  mutated_gene <- names(frequent_mut)[3]
+  mutated_gene <- names(frequent_mut)[index]
   #info with the mutated_gene above
   mut_mutated_gene <- mut_final[which(mut_final$Hugo_Symbol == mutated_gene), ]
  
@@ -240,7 +248,8 @@ mutation_analysis <- function(cell_line){
 
 
 #must type in argument as a string (wrapped with "")
-mutation_analysis("pancreas")
+# second parameter indicates which common mutation to analyze. 1 being the most common mutation, 2 being the second most common, and so on. 
+mutation_analysis("pancreas", 3)
 
 
 
