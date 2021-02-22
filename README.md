@@ -30,7 +30,7 @@ Go to "download" to view the details of CRISPR(Avana) Public data, expression da
 
 ## 2. Mutation Analysis
 ### Example with colorectal cancer
-![alt text](https://github.com/jameshyojaelee/gene_knockout_effect/blob/main/mutation_analysis/analysis%20results/colorectal.png)
+![alt text](https://github.com/jameshyojaelee/cancer_GWAS/blob/main/gene_knockout_analysis/UBR1/colorectal_UBR1_KO_ABR.jpeg)
 <br />
 <br />
 <br />
