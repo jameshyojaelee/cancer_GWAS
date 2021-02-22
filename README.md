@@ -7,7 +7,7 @@ Main R script with source code <br />
 <br />
 
 ## Mutation_analysis
-folder with all the mutation analyses using UBA2 gene knockout effect data. contains extra R file for each cancer cell line <br />
+folder with all the mutation analyses using gene knockout effect data. contains extra R file for each cancer cell line <br />
 <br />
 
 ## Data set
@@ -22,7 +22,7 @@ Go to "download" to view the details of CRISPR(Avana) Public data, expression da
 
 <br /><br /><br />
 
-## UBA2 gene knockout effect across lineage 
+## UBR1 gene knockout effect across lineage 
 ### **The term lineage is used here to describe different cancer cell lines such as colorectal and pancreatic cancer.**
 ![alt text](https://github.com/jameshyojaelee/cancer_GWAS/blob/main/gene_knockout_analysis/UBR1/UBR1_KO_effect_per_lineage.png)
 
