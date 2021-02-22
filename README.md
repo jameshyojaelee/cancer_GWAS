@@ -24,7 +24,7 @@ Go to "download" to view the details of CRISPR(Avana) Public data, expression da
 
 ## UBA2 gene knockout effect across lineage 
 ### **The term lineage is used here to describe different cancer cell lines such as colorectal and pancreatic cancer.**
-![alt text](https://github.com/jameshyojaelee/gene_knockout_effect/blob/main/UBA2_gene_KO_effect_per_lineage.png)
+![alt text](https://github.com/jameshyojaelee/cancer_GWAS/blob/main/gene_knockout_analysis/UBR1/UBR1_KO_effect_per_lineage.png)
 
 <br />
 
