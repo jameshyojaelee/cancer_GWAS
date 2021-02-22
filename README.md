@@ -2,7 +2,7 @@
 
 # 1. CRISPR Gene Knockout Effect
 
-## [Main_Gene_Effect.R](https://github.com/jameshyojaelee/Gene_knockout_effect/raw/main/Main_Gene_effect.R)
+## [Gene_Knockout_Effect.R](https://github.com/jameshyojaelee/cancer_GWAS/blob/main/Gene_knockout_effect.R)
 Main R script with source code <br />
 <br />
 
