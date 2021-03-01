@@ -25,7 +25,10 @@ Go to "download" to view the details of CRISPR(Avana) Public data, expression da
 ## UBR1 gene knockout effect across lineage 
 ### **The term lineage is used here to describe different cancer cell lines such as colorectal and pancreatic cancer.**
 ![alt text](https://github.com/jameshyojaelee/cancer_GWAS/blob/main/gene_knockout_analysis/UBR1/UBR1_KO_effect_per_lineage.png)
+<br />
 
+## UBR4 gene knockout effect across lineage 
+![alt text](https://github.com/jameshyojaelee/cancer_GWAS/blob/main/gene_knockout_analysis/UBR4/UBR4_KO_effect.png)
 <br />
 
 ## 2. Mutation Analysis
