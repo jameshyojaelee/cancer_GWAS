@@ -15,7 +15,7 @@ ccl_mut <- read.csv("C:/Users/james/Desktop/Sumoylation_Analysis/data/CCLE_mutat
 exp <- read.csv("C:/Users/james/Desktop/Sumoylation_Analysis/data/CCLE_expression.csv", fileEncoding="UTF-8-BOM") #gene expression data for just protein coding genes
 
 #Enter the gene of interest
-Gene <- "UBR1"
+Gene <- "UBR3"
 
 #dataframe with the cancer cell line names
 ccl_df <- data.frame(ID = cclID$DepMap_ID, ccl = cclID$stripped_cell_line_name, lineage = cclID$lineage)
@@ -58,7 +58,7 @@ lineage <- sort(lineage)
 #part 1 - Gene gene effect per lineage. below -1 is a viable threshold
 
 #boxplot with different cell types and their gene effects
-png(filename="gene_knockout_analysis/UBR1_KO_effect.png", width=850, bg="white")
+png(filename="gene_knockout_analysis/UBR3_KO_effect.png", width=850, bg="white")
 par(mar=c(12,5,3,1))
 boxplot(KO_effect ~ lineage,
         data=Gene_merged,
@@ -185,7 +185,7 @@ mutation_analysis <- function(cell_line, index){
   #create subset with the specific variant from above
   mut_mutated_gene_var <- mut_mutated_gene[which(mut_mutated_gene$Variant_Classification == variant), ]
   
-  mut_mutated_gene <- droplevels(mut_mutated_gene)
+  mut_mutated_gene_var <- droplevels(mut_mutated_gene_var)
 
   y <- length(mut_mutated_gene_var$ccl)
   x <- length(unique(mut$ccl))
@@ -249,7 +249,7 @@ mutation_analysis <- function(cell_line, index){
 
 #must type in argument as a string (wrapped with "")
 # second parameter indicates which common mutation to analyze. 1 being the most common mutation, 2 being the second most common, and so on. 
-mutation_analysis("pancreas", 3)
+mutation_analysis("pancreas", 10)
 
 
 
