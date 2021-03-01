@@ -51,8 +51,5 @@ TAK-981 inhibition experiment result: https://github.com/jameshyojaelee/cancer_c
 <br />
 
 ## 4. Pathway Analysis
-### Example with HUWE1 (found in colorectal cancer mutation analysis) 
-![alt text](https://github.com/jameshyojaelee/Gene_knockout_effect/blob/main/pathway_analysis/HUWE1/hsa04120.png)
-
-### Example with CDKN2A (found in pancreatic cancer mutation analysis) 
-![alt text](https://github.com/jameshyojaelee/Gene_knockout_effect/blob/main/pathway_analysis/CDKN2A/hsa04110.png)
+### Example with colorectal cancer
+![alt text](https://github.com/jameshyojaelee/cancer_GWAS/blob/main/pathway_analysis/colorectal%20cancer.png)
